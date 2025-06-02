@@ -1,0 +1,6 @@
+git clone https://github.com/user/repo.git
+cd repo
+touch newfile.txt
+git add .
+git commit -m "Added new file"
+git push origin main
