@@ -1,0 +1,6 @@
+git branch new-feature
+git checkout new-feature
+git switch main
+git merge new-feature
+git checkout new-feature
+git rebase main
