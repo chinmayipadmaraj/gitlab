@@ -1,0 +1,8 @@
+git config --global user.name "Alice"
+git config --global user.email "alice@example.com"
+git init
+echo "Hello Git" > file.txt
+git add file.txt
+git commit -m "Initial commit"
+git status
+git log --oneline
