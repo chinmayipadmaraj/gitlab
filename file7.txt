@@ -1,0 +1,5 @@
+git stash push -m "temp changes"
+git rebase -i HEAD~2
+git tag -a v1.0 -m "release v1.0"
+git reset --hard HEAD~1
+git revert HEAD
